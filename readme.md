@@ -1,4 +1,4 @@
-# 🎓 Recommender — AI-Powered Course Platform
+#  Recommender — AI-Powered Course Platform
 
 This repository contains submission for the **Senior MERN Full-Stack Technical Assessment**.
 
@@ -65,22 +65,22 @@ Before using the frontend login:
 
 ---
 
-## 🧠 Microservices Overview
+## Microservices Overview
 
-### 🔐 Authentication Service
+### Authentication Service
 
 - Handles **Admin Signup & Login**
 - Passwords hashed using **bcrypt**
 - Generates **JWT Tokens**
 - Protects admin-only routes
 
-### 💡 Recommendation Service
+###  Recommendation Service
 
 - Integrates with **Gemini AI API**
 - `/api/recommendations` endpoint for course suggestions
 - Mock responses provided if API key unavailable
 
-### 📚 Course Service
+###  Course Service
 
 - Upload CSV to MongoDB
 - Index courses in Elasticsearch
@@ -89,7 +89,7 @@ Before using the frontend login:
 
 ---
 
-## 🛠️ DevOps Section Answers
+##  DevOps Section Answers
 
 ### **2a. CI/CD Pipeline Sketch**
 
@@ -138,7 +138,7 @@ Kafka can be used for:
 
 ---
 
-## 🧩 Frontend Overview
+## Frontend Overview
 
 - Minimal React JS app with clean UI and responsive layout
 - Integrates with backend APIs via Axios
@@ -151,7 +151,7 @@ Kafka can be used for:
 
 ---
 
-## 💾 Environment Variables
+##  Environment Variables
 
 For simplicity, the repo has only 1 `.env` file, but each service will have its own `.env` in production:
 
@@ -186,9 +186,9 @@ Postman/
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Bhavnesh Sharma**.<br />
 Software Engineer.<br />
-📧 Email: [bhanusharma252001@gmail.com](mailto:bhanusharma252001@gmail.com)
-<br />💼 LinkedIn: [https://www.linkedin.com/in/bhavnesh-sharma-208134177/](https://www.linkedin.com/in/bhavnesh-sharma-208134177/)
+ Email: [bhanusharma252001@gmail.com](mailto:bhanusharma252001@gmail.com)
+<br />LinkedIn: [https://www.linkedin.com/in/bhavnesh-sharma-208134177/](https://www.linkedin.com/in/bhavnesh-sharma-208134177/)
