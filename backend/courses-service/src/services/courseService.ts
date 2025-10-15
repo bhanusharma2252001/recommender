@@ -44,6 +44,7 @@ export class CourseService {
       id: course.course_id,
       document: course,
     });
+    await this.redis.flushall();
   }
 
   async search(
