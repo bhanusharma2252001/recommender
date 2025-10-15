@@ -1,0 +1,101 @@
+course_id,title,description,category,instructor,duration
+C001,Containerization Best Practices,A comprehensive course covering theory and implementation.,Data Science,Margaret Hamilton,7h
+C002,Cloud Computing Essentials,A comprehensive course covering theory and implementation.,Mobile Development,Grace Hopper,13h
+C003,Frontend with React,Gain practical experience and boost your technical skills.,Backend Development,Alice Johnson,7h
+C004,AR/VR Development,A comprehensive course covering theory and implementation.,Frontend Development,Ryan Dahl,9h
+C005,Angular Masterclass,Learn the basics and advanced concepts with hands-on projects.,Blockchain,Ken Thompson,12h
+C006,Design Patterns in JavaScript,Learn the basics and advanced concepts with hands-on projects.,Mobile Development,Martin Fowler,12h
+C007,Reinforcement Learning,Understand the fundamentals and best practices for professionals.,Backend Development,Alice Johnson,15h
+C008,Design Patterns in JavaScript,Master this skill with real-world examples and exercises.,Frontend Development,Jeff Dean,10h
+C009,Introduction to Machine Learning,A comprehensive course covering theory and implementation.,Artificial Intelligence,Ryan Dahl,13h
+C010,Serverless Architecture,Gain practical experience and boost your technical skills.,Backend Development,Tim Berners-Lee,13h
+C011,API Gateway & Load Balancing,A comprehensive course covering theory and implementation.,Database,Margaret Hamilton,6h
+C012,Database Design Principles,Master this skill with real-world examples and exercises.,Mobile Development,Sam Newman,9h
+C013,Cloud Computing Essentials,Gain practical experience and boost your technical skills.,Data Science,Ryan Dahl,10h
+C014,Angular Masterclass,A comprehensive course covering theory and implementation.,Software Architecture,Grace Hopper,14h
+C015,Angular Masterclass,Master this skill with real-world examples and exercises.,Software Architecture,Dan Abramov,9h
+C016,Rust Programming Essentials,Understand the fundamentals and best practices for professionals.,Mobile Development,Dan Abramov,13h
+C017,Big Data with Spark,Master this skill with real-world examples and exercises.,DevOps,Alice Johnson,14h
+C018,Serverless Architecture,Master this skill with real-world examples and exercises.,Database,Ken Thompson,6h
+C019,Python for Data Analysis,Gain practical experience and boost your technical skills.,Backend Development,Dennis Ritchie,12h
+C020,Cloud Computing Essentials,A comprehensive course covering theory and implementation.,Cybersecurity,Alice Johnson,11h
+C021,Clean Code Practices,Gain practical experience and boost your technical skills.,Database,Grace Hopper,9h
+C022,Frontend with React,Understand the fundamentals and best practices for professionals.,Cloud,Gene Kim,14h
+C023,Vue.js from Scratch,Learn the basics and advanced concepts with hands-on projects.,DevOps,Wes McKinney,6h
+C024,Natural Language Processing,Understand the fundamentals and best practices for professionals.,Web Development,Ken Thompson,15h
+C025,Microservices Architecture,A comprehensive course covering theory and implementation.,DevOps,Dan Abramov,13h
+C026,Serverless Architecture,Learn the basics and advanced concepts with hands-on projects.,Database,Dan Abramov,15h
+C027,Advanced Node.js,Learn the basics and advanced concepts with hands-on projects.,Backend Development,Linus Torvalds,8h
+C028,Event-Driven Architecture,A comprehensive course covering theory and implementation.,Backend Development,Sam Newman,10h
+C029,CI/CD with Jenkins,A comprehensive course covering theory and implementation.,Software Architecture,Brendan Eich,9h
+C030,Cybersecurity for Beginners,Master this skill with real-world examples and exercises.,Artificial Intelligence,Tim Berners-Lee,7h
+C031,Data Visualization with Tableau,Master this skill with real-world examples and exercises.,Software Architecture,Ryan Dahl,13h
+C032,System Design Fundamentals,Master this skill with real-world examples and exercises.,Mobile Development,Martin Fowler,8h
+C033,Distributed Systems 101,A comprehensive course covering theory and implementation.,Software Architecture,Guido van Rossum,12h
+C034,TypeScript Deep Dive,Gain practical experience and boost your technical skills.,Backend Development,Alice Johnson,12h
+C035,Design Patterns in JavaScript,Understand the fundamentals and best practices for professionals.,Database,Alice Johnson,6h
+C036,Scalable Web Apps,A comprehensive course covering theory and implementation.,Cybersecurity,Elon Musk,7h
+C037,Data Visualization with Tableau,Master this skill with real-world examples and exercises.,Cybersecurity,Dennis Ritchie,6h
+C038,AI Ethics and Policy,Learn the basics and advanced concepts with hands-on projects.,Cybersecurity,Ryan Dahl,12h
+C039,Event-Driven Architecture,A comprehensive course covering theory and implementation.,Frontend Development,Wes McKinney,6h
+C040,Vue.js from Scratch,Gain practical experience and boost your technical skills.,Software Architecture,Gene Kim,15h
+C041,Kotlin for Android,Learn the basics and advanced concepts with hands-on projects.,Software Architecture,Ryan Dahl,13h
+C042,Go for Backend,Gain practical experience and boost your technical skills.,Cloud,Vitalik Buterin,8h
+C043,Angular Masterclass,A comprehensive course covering theory and implementation.,Data Science,Guido van Rossum,9h
+C044,REST API Development,A comprehensive course covering theory and implementation.,Web Development,Wes McKinney,14h
+C045,Deep Learning with TensorFlow,A comprehensive course covering theory and implementation.,Artificial Intelligence,Ken Thompson,6h
+C046,DevOps Fundamentals,Understand the fundamentals and best practices for professionals.,Software Architecture,Dan Abramov,15h
+C047,Generative AI with Gemini,Learn the basics and advanced concepts with hands-on projects.,DevOps,Gene Kim,14h
+C048,Blockchain Basics,Learn the basics and advanced concepts with hands-on projects.,DevOps,Alice Johnson,11h
+C049,Rust Programming Essentials,Learn the basics and advanced concepts with hands-on projects.,Data Science,Andrew Ng,8h
+C050,Cloud Security Fundamentals,Master this skill with real-world examples and exercises.,Database,Guido van Rossum,15h
+C051,REST API Development,A comprehensive course covering theory and implementation.,Database,Linus Torvalds,10h
+C052,Mobile App Security,A comprehensive course covering theory and implementation.,Database,Grace Hopper,14h
+C053,AWS Solutions Architect,Learn the basics and advanced concepts with hands-on projects.,DevOps,Ken Thompson,12h
+C054,API Gateway & Load Balancing,Learn the basics and advanced concepts with hands-on projects.,Frontend Development,Grace Hopper,14h
+C055,Data Visualization with Tableau,Understand the fundamentals and best practices for professionals.,Backend Development,Alice Johnson,6h
+C056,GraphQL with Apollo,Learn the basics and advanced concepts with hands-on projects.,Database,Brendan Eich,10h
+C057,Ethical Hacking Basics,Learn the basics and advanced concepts with hands-on projects.,Data Science,Alice Johnson,14h
+C058,GCP for Developers,Learn the basics and advanced concepts with hands-on projects.,DevOps,Brendan Eich,11h
+C059,Software Testing & QA,Learn the basics and advanced concepts with hands-on projects.,Database,Andrew Ng,7h
+C060,Distributed Systems 101,Understand the fundamentals and best practices for professionals.,Web Development,Jeff Dean,15h
+C061,Database Design Principles,Master this skill with real-world examples and exercises.,Cloud,Ryan Dahl,6h
+C062,Cloud Computing Essentials,Learn the basics and advanced concepts with hands-on projects.,Cloud,Sundar Pichai,13h
+C063,Docker & Kubernetes Mastery,Master this skill with real-world examples and exercises.,Backend Development,Brendan Eich,7h
+C064,Python for Data Analysis,A comprehensive course covering theory and implementation.,Artificial Intelligence,Linus Torvalds,13h
+C065,Vue.js from Scratch,A comprehensive course covering theory and implementation.,Cybersecurity,Dan Abramov,12h
+C066,Web Security Essentials,Learn the basics and advanced concepts with hands-on projects.,Web Development,Ken Thompson,10h
+C067,Kotlin for Android,A comprehensive course covering theory and implementation.,Database,Grace Hopper,7h
+C068,Kotlin for Android,Master this skill with real-world examples and exercises.,Cloud,Jeff Dean,9h
+C069,Frontend with React,A comprehensive course covering theory and implementation.,Database,Martin Fowler,13h
+C070,Azure Fundamentals,A comprehensive course covering theory and implementation.,Database,Grace Hopper,10h
+C071,Cloud Security Fundamentals,Master this skill with real-world examples and exercises.,Data Science,Elon Musk,14h
+C072,CI/CD with Jenkins,Gain practical experience and boost your technical skills.,Web Development,Martin Fowler,11h
+C073,GCP for Developers,Master this skill with real-world examples and exercises.,DevOps,Guido van Rossum,6h
+C074,Blockchain Basics,A comprehensive course covering theory and implementation.,DevOps,Ken Thompson,8h
+C075,Distributed Systems 101,A comprehensive course covering theory and implementation.,Blockchain,Jeff Dean,15h
+C076,REST API Development,Gain practical experience and boost your technical skills.,Cybersecurity,Martin Fowler,10h
+C077,Azure Fundamentals,Learn the basics and advanced concepts with hands-on projects.,Data Science,Grace Hopper,15h
+C078,NoSQL Databases,Gain practical experience and boost your technical skills.,DevOps,Vitalik Buterin,6h
+C079,AR/VR Development,Understand the fundamentals and best practices for professionals.,Cybersecurity,Sam Newman,13h
+C080,Reinforcement Learning,Gain practical experience and boost your technical skills.,Cybersecurity,Gene Kim,8h
+C081,Containerization Best Practices,Learn the basics and advanced concepts with hands-on projects.,Artificial Intelligence,Ken Thompson,10h
+C082,Azure Fundamentals,Master this skill with real-world examples and exercises.,Database,Brendan Eich,13h
+C083,Design Patterns in JavaScript,Understand the fundamentals and best practices for professionals.,Blockchain,Dan Abramov,15h
+C084,Reinforcement Learning,Learn the basics and advanced concepts with hands-on projects.,DevOps,Sam Newman,12h
+C085,Containerization Best Practices,Understand the fundamentals and best practices for professionals.,Mobile Development,Linus Torvalds,8h
+C086,Distributed Systems 101,Gain practical experience and boost your technical skills.,DevOps,Brendan Eich,14h
+C087,NoSQL Databases,Master this skill with real-world examples and exercises.,Mobile Development,Linus Torvalds,15h
+C088,Cloud Security Fundamentals,A comprehensive course covering theory and implementation.,Cybersecurity,Sam Newman,11h
+C089,Big Data with Spark,Learn the basics and advanced concepts with hands-on projects.,Blockchain,Ken Thompson,6h
+C090,CI/CD with Jenkins,Understand the fundamentals and best practices for professionals.,Frontend Development,Guido van Rossum,11h
+C091,Event-Driven Architecture,Master this skill with real-world examples and exercises.,Blockchain,Martin Fowler,7h
+C092,Ethical Hacking Basics,A comprehensive course covering theory and implementation.,Artificial Intelligence,Dan Abramov,12h
+C093,GraphQL with Apollo,Learn the basics and advanced concepts with hands-on projects.,Artificial Intelligence,Elon Musk,10h
+C094,Generative AI with Gemini,Understand the fundamentals and best practices for professionals.,Frontend Development,Gene Kim,11h
+C095,NoSQL Databases,Understand the fundamentals and best practices for professionals.,Data Science,Linus Torvalds,10h
+C096,Go for Backend,Gain practical experience and boost your technical skills.,Web Development,Sundar Pichai,8h
+C097,Clean Code Practices,Master this skill with real-world examples and exercises.,Database,Margaret Hamilton,8h
+C098,Angular Masterclass,Gain practical experience and boost your technical skills.,Blockchain,Sam Newman,11h
+C099,Cloud Computing Essentials,Master this skill with real-world examples and exercises.,Frontend Development,Ryan Dahl,12h
+C100,Data Engineering with Airflow,Master this skill with real-world examples and exercises.,Cybersecurity,Andrew Ng,10h

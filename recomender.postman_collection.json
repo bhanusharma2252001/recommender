@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "2280af0a-63f0-497f-98c5-2273e07a9865",
+		"name": "recommender",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13445120"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"admin@example.com\",\r\n    \"password\": \"Password123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"admin@example.com\",\r\n    \"password\": \"Password123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin only",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmMmYzY2FhMTIxYTRlZDYyZGVkNDYiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYwNTA2MzU1LCJleHAiOjE3NjA1MDk5NTV9.lXAfj6kFarCt7WvC5d01HGJsl3jsd-7gF-oWkIF3YuE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/auth/admin-only",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"auth",
+						"admin-only"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload csv",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmMmYzY2FhMTIxYTRlZDYyZGVkNDYiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYwNTA2MzU1LCJleHAiOjE3NjA1MDk5NTV9.lXAfj6kFarCt7WvC5d01HGJsl3jsd-7gF-oWkIF3YuE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/user/Downloads/sample.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/api/courses/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"courses",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search courses",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmMmYzY2FhMTIxYTRlZDYyZGVkNDYiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYwNTA2MzU1LCJleHAiOjE3NjA1MDk5NTV9.lXAfj6kFarCt7WvC5d01HGJsl3jsd-7gF-oWkIF3YuE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api/courses/search?q=Blockchain",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"courses",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Blockchain"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get courses by id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmMmYzY2FhMTIxYTRlZDYyZGVkNDYiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYwNTA2MzU1LCJleHAiOjE3NjA1MDk5NTV9.lXAfj6kFarCt7WvC5d01HGJsl3jsd-7gF-oWkIF3YuE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api/courses/C008",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"courses",
+						"C008"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "recommend course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGVmMmYzY2FhMTIxYTRlZDYyZGVkNDYiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYwNTA5MjE1LCJleHAiOjE3NjA1MTI4MTV9.IU5733_x_1-r1--9t3pu8UtkPJMHKeEFfugzz5r6H5A",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"topics\": [\r\n        \"UI UX\"\r\n    ],\r\n    \"skillLevel\":\"beginner\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/api/recommendations",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"recommendations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-goog-api-key",
+						"value": "AIzaSyCftzJBiVaDdcBgb78jIfpKWctj9awM1kg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Provide 5 course recommendations for topics: Machine Learning at skill level:beginner. Respond as JSON array with fields title, description, duration, url\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+					"protocol": "https",
+					"host": [
+						"generativelanguage",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta",
+						"models",
+						"gemini-2.0-flash:generateContent"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
