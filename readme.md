@@ -19,9 +19,9 @@ It demonstrates:
 Ensure the following are installed:
 
 - Docker & Docker Compose
-- Node.js (for optional local testing)
+- Node.js
 - Git
-- Postman (optional, for testing APIs)
+- Postman
 
 ### 2️⃣ Clone the Repository
 
