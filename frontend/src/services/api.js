@@ -43,7 +43,7 @@ export async function searchCourses(token, q, category, instructor, page = 1, si
     }
     throw new Error(err);
   }
-  return res.json(); // now returns { results, total, totalPages, page, size, cached }
+  return res.json(); 
 }
 
 

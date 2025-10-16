@@ -44,6 +44,7 @@ export class CourseService {
       id: course.course_id,
       document: course,
     });
+    await this.redis.flushall();
   }
 
   async search(
@@ -80,6 +81,7 @@ export class CourseService {
       from: (page - 1) * size,
       size,
     });
+    console.log("es responose", new Date().toLocaleTimeString(), esRes);
 
     // Get total count (use hits.total.value if available, otherwise call count)
     let total = 0;
@@ -104,17 +106,20 @@ export class CourseService {
 
     const totalPages = Math.max(1, Math.ceil(total / size));
 
-    const resp = {
-      cached: false,
+    const cache = {
       results: hits,
       total,
       totalPages,
       page,
       size,
     };
+    const resp = {
+      cached: false,
+      ...cache
+    };
 
     // Cache full response (including metadata)
-    await this.redis.set(cacheKey, JSON.stringify(resp), "EX", 60 * 5); // 5 minutes
+    await this.redis.set(cacheKey, JSON.stringify(cache), "EX", 60 * 5); // 5 minutes
 
     return resp;
   }
