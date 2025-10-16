@@ -1,4 +1,4 @@
-#  Recommender — AI-Powered Course Platform
+#  Recommender — AI-Powered Course Recommendation
 
 This repository contains submission for the **Senior MERN Full-Stack Technical Assessment**.
 
