@@ -16,9 +16,7 @@ export async function fetchRecommendations(token, topics, skillLevel){
     headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${token}` },
     body: JSON.stringify({ topics, skillLevel })
   });
-  if (!res.ok) {
-    const txt = await res.text(); throw new Error('Reco failed: ' + txt);
-  }
+   if (!res.ok) throw new Error('Could not fetch recommendations');
   return res.json();
 }
 
